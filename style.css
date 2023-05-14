@@ -1,4 +1,117 @@
-:root {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(90deg, #592693, #af4f86);
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  margin-top: 5rem;
+  background: #8255af;
+  padding: 2rem 5rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.todo-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.todo-input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+.todo-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  background-color: #aa9cb2;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+}
+
+.todo-output {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-height: 200px;
+  overflow: auto;
+}
+
+.todo-item {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-check {
+  cursor: pointer;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: none;
+  outline: none;
+}
+
+.todo-text {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: white;
+  color: black;
+  padding: 0.4rem 1rem;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+}
+
+.todo-edit,
+.todo-delete {
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.8rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*:root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -95,3 +208,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+*/
