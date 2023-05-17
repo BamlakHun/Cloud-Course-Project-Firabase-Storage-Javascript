@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(90deg, #592693, #af4f86);
+  color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 32px;
+  right: 5px;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.icon-success {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 32px;
+  right: 5px;
+  pointer-events: none;
+  z-index: 2;
+  fill: green;
+}
+
+.icon-error {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 32px;
+  right: 5px;
+  pointer-events: none;
+  z-index: 2;
+  fill: red;
+}
+
+
+.container--unhidden {
+  margin: 3rem;
+  padding: 2rem;
+  border-radius: .25rem;
+  background-color: white;
+}
+
+.label {
+  font-weight: bold;
+  display: block;
+  color: #333;
+  margin-bottom: .25rem;
+  color: #2d3748;
+}
+
+.input {
+  appearance: none;
+  display: block;
+  width: 100%;
+  color: #2d3748;
+  border: 1px solid #cbd5e0;
+  line-height: 1.25;
+  background-color: white;
+  padding: .65rem .75rem;
+  border-radius: 0.25rem;
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+}
+
+.placeholder {
+  color: #a0aec0;
+}
+
+.input-error {
+  border: 1px solid red;
+}
+
+.focus {
+  border: 1px solid red;
+}
+
+
+.focus {
+  outline: none;
+  border: 1px solid #a0aec0;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  background-clip: padding-box;
+}
+
+
+.input-group {
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.error-message {
+  font-size: .85rem;
+  color: red;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  background-color: #aa9cb2;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+}
+
+.hover {
+  filter: brightness(110%);
+}
+
+.form--unhidden {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.form--hidden {
+  display: none;
+}
+
+.container--hidden {
+  margin: 3rem;
+  padding: 2rem;
+  border-radius: .25rem;
+  background-color: white;
+}
